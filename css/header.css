@@ -1,0 +1,29 @@
+
+
+.nav-item > li,a {
+   text-decoration: none;
+   font-family: "Cascadia Code", monospace;
+   font-weight: 400;
+   font-size: 16px;
+   color: #1C274C;
+}
+header{
+   margin: 0;
+   background: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2em;
+}
+
+.logo {
+   display: flex;
+   margin-right: 150px;
+   cursor: pointer;
+}
+
+.nav-item{
+   padding: 16px;
+   list-style: none;
+   display: inline-block;
+}
