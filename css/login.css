@@ -1,0 +1,65 @@
+.container{
+    margin-left:60%;
+    margin-top: 15%;
+    width: auto;
+}
+.login-box {
+    width: 340px;
+    border: 1px solid gray;
+    background-color: white;
+
+
+}
+.login-form{
+    width: 300px;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+
+}
+.register-form{
+    margin: 10px;
+}
+
+.btn{
+    padding: 15px;
+    background-color: #2c62f6;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 101%;
+    cursor: pointer;
+}
+.form-control{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 250px;
+}
+.form-group-password{
+    text-align: center;
+    padding: 10px;
+}
+.form-group-password a{
+    text-decoration: none;
+}
+.btn-1{
+    padding: 15px;
+    background-color: #61b543;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.new-account{
+    text-align: center;
+}
+body{
+    background-color: #f1f3f6;
+}
