@@ -1,29 +1,35 @@
-
-
-.nav-item > li,a {
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px 20px 20px;
+   background: transparent;
+}
+.nav-item  li,a {
    text-decoration: none;
    font-family: "Cascadia Code", monospace;
-   font-weight: 400;
-   font-size: 16px;
    color: #1C274C;
 }
-header{
-   margin: 0;
-   background: transparent;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 2em;
+.nav-item a:hover {
+   color: red;
 }
 
 .logo {
-   display: flex;
-   margin-right: 150px;
-   cursor: pointer;
+   margin-right: 100px;
 }
 
 .nav-item{
-   padding: 16px;
    list-style: none;
-   display: inline-block;
+   display: inline;
+   padding: 10px 20px;
 }
+
+.navbar ul{
+   margin: auto;
+   width: auto;
+   display: flex;
+}
+.navbar ul li{
+
+}
+

@@ -1,6 +1,33 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: blueviolet;
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.filter_nav {
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    padding-left: 70px;
+}
+
+.filter_nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+.filter_nav li input {
+    padding: 15px;
+    background: linear-gradient(90deg, red 0%, darkred 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.filter_nav li select {
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: lightgray;
+    text-align: left;
 }
