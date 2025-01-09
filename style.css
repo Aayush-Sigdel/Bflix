@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    scroll-behavior: smooth;
 }
 
 .filter_nav {
@@ -30,4 +31,70 @@ body{
     border-radius: 5px;
     border-color: lightgray;
     text-align: left;
+}
+
+
+.movies-list-img img {
+    width: 270px;
+    height: 370px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.movies-list-img:hover {
+    transform: scale(1.1);
+    background-color: lightgray;
+}
+
+.movies-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.cover img {
+    border-radius: 15px;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(0.935);
+}
+
+.cover-content {
+    font-family: monospace;
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    color: #f1f1f1;
+    width: auto ;
+    transition: .5s ease;
+    font-size: 20px;
+    padding: 20px;
+    transform: scale(0.935);
+    text-align: left;
+}
+
+.movies-list-img {
+    border-radius: 15px;
+    transition: transform.2s ease-in-out ;
+    position: relative;
+}
+
+.movie-content {
+    position: absolute;
+    font-family: monospace;
+    bottom: 0;
+    color: #f1f1f1;
+    background: transparent;
+    width: auto ;
+    transition: .2s ease;
+    opacity: 0;
+    font-size: 20px;
+    padding: 20px;
+    transform: scale(0.935);
+    text-align: match-parent;
+}
+
+.movies-list-img:hover .movie-content {
+    opacity: 1;
 }

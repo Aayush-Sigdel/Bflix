@@ -24,58 +24,104 @@
         </ul>
     </nav>
 </header>
-    <h1>Welcome to the Movie Fun Fact</h1>
 
-    <h2 id="movie-trivia">Fun Movie Trivia</h2>
-    <ul>
-        <li><b>The Dark Knight (2008):</b> Heath Ledger locked himself in a hotel room for 6 weeks to prepare for the role of the Joker.</li>
-        <li><b>The Matrix (1999):</b> The iconic "green code" in <em>The Matrix</em> was inspired by Japanese sushi recipes.</li>
-        <li><b>Titanic (1997):</b> The scene where Jack sketches Rose was actually drawn by director James Cameron.</li>
-        <li><b>Star Wars: A New Hope (1977):</b> The sound of the lightsaber was created by combining the hum of an old TV and a movie projector motor.</li>
-        <li><b>Psycho (1960):</b> Chocolate syrup was used as blood in the famous shower scene.</li>
-        <li><b>Avengers: Endgame (2019):</b> Robert Downey Jr. hid snacks on the set and shared them during takes.</li>
-        <li><b>Harry Potter Series:</b> J.K. Rowling revealed that the names of the houses were created on a bar napkin.</li>
-        <li><b>The Godfather (1972):</b> The cat Marlon Brando holds in the opening scene was a stray found on set.</li>
-        <li><b>Frozen (2013):</b> The song "Let It Go" was written in just one day.</li>
-        <li><b>Forrest Gump (1994):</b> Tom Hanks didn’t take a salary for this movie but instead accepted a share of the profits.</li>
-        <li><b>The Lion King (1994):</b> The "Hakuna Matata" song was almost cut from the movie.</li>
-        <li><b>The Wizard of Oz (1939):</b> The Wicked Witch’s makeup was so toxic that the actress couldn’t eat solid food during filming.</li>
-        <li><b>Back to the Future (1985):</b> The DeLorean was chosen because its design made it look like a spaceship.</li>
-        <li><b>Jaws (1975):</b> The mechanical shark often malfunctioned, leading to more suspenseful off-screen moments.</li>
-        <li><b>Indiana Jones: Raiders of the Lost Ark (1981):</b> Harrison Ford performed many of his own stunts.</li>
-        <li><b>E.T. (1982):</b> The iconic alien voice was created by a chain-smoking woman named Pat Welsh.</li>
-        <li><b>The Avengers (2012):</b> Mark Ruffalo wore a motion-capture suit to play the Hulk instead of relying entirely on CGI.</li>
-        <li><b>Shrek (2001):</b> Mike Myers decided to give Shrek a Scottish accent mid-production.</li>
-        <li><b>Iron Man (2008):</b> The script was only partially written when filming began; many scenes were improvised.</li>
-        <li><b>The Hunger Games (2012):</b> Jennifer Lawrence accidentally kicked co-star Josh Hutcherson in the head during training.</li>
-        <li><b>The Social Network (2010):</b> Jesse Eisenberg memorized every line of the script, including those of other characters.</li>
-        <li><b>Avatar (2009):</b> James Cameron waited over a decade for technology to catch up to his vision.</li>
-        <li><b>The Silence of the Lambs (1991):</b> Anthony Hopkins improvised the terrifying hissing sound during his dialogue.</li>
-        <li><b>Rocky (1976):</b> Sylvester Stallone wrote the screenplay in just three days.</li>
-        <li><b>Goodfellas (1990):</b> The "Funny how?" scene was improvised by Joe Pesci and Ray Liotta.</li>
-        <li><b>The Shawshank Redemption (1994):</b> The maggots fed to the bird in the movie had to be approved by the American Humane Association.</li>
-        <li><b>Fight Club (1999):</b> Brad Pitt had his front tooth chipped to appear more authentic as Tyler Durden.</li>
-        <li><b>It (2017):</b> Bill Skarsgård could naturally move his eyes in different directions, adding to Pennywise’s creepiness.</li>
-        <li><b>Deadpool (2016):</b> Ryan Reynolds paid for the writers to be on set so they could tweak the dialogue in real-time.</li>
-        <li><b>The Lego Movie (2014):</b> Every Lego piece in the movie is designed to be buildable in real life.</li>
-        <li><b>Mad Max: Fury Road (2015):</b> The entire movie was storyboarded before the script was written.</li>
-        <li><b>Black Panther (2018):</b> The Wakandan language is based on Xhosa, one of South Africa's official languages.</li>
-        <li><b>Frozen II (2019):</b> It took over 118 hours to render the movie’s most complex scene.</li>
-        <li><b>Finding Nemo (2003):</b> Pixar's animators had to attend a marine biology class before creating the film.</li>
-        <li><b>Beauty and the Beast (1991):</b> This was the first animated film to be nominated for Best Picture at the Oscars.</li>
-        <li><b>Aladdin (1992):</b> Robin Williams improvised most of the Genie’s lines.</li>
-        <li><b>The Simpsons Movie (2007):</b> Over 100 drafts of the script were written before the final version.</li>
-        <li><b>Thor: Ragnarok (2017):</b> Over 80% of the dialogue in the movie was improvised.</li>
-        <li><b>The Godfather Part II (1974):</b> Robert De Niro learned to speak Sicilian for the movie.</li>
-        <li><b>Interstellar (2014):</b> The black hole visualization was so accurate it led to new scientific discoveries.</li>
-        <li><b>Wonder Woman (2017):</b> Gal Gadot was five months pregnant during reshoots for the film.</li>
-        <li><b>John Wick (2014):</b> Keanu Reeves trained for months to perfect his gunfight and martial arts skills.</li>
-        <li><b>The Revenant (2015):</b> Leonardo DiCaprio ate raw bison liver for his role, even though he’s a vegetarian.</li>
-        <li><b>The Exorcist (1973):</b> The sound of the demon’s voice was created by recording a woman smoking and drinking heavily.</li>
-        <li><b>The Great Gatsby (2013):</b> The champagne used in the party scenes was real.</li>
-        <li><b>Jurassic Park (1993):</b> The sound of the T-Rex’s roar was a mix of a baby elephant, a tiger, and an alligator.</li>
-        <li><b>Spider-Man (2002):</b> Tobey Maguire actually caught all the food on the tray in the cafeteria scene—no CGI was used.</li>
+<form>
+    <ul class="filter_nav">
+        <li><label>
+            <select name="Movies">
+                <option>Movie</option>
+                <option>TV Show</option>
+            </select>
+        </label></li>
+        <li><label>
+            <select name="Genres">
+                <option value="" disabled selected>Genre</option>
+                <option>Action</option>
+                <option>Adventure</option>
+                <option>Comedy</option>
+                <option>Drama</option>
+                <option>Horror</option>
+                <option>Romance</option>
+                <option>Sci-Fi</option>
+                <option>Thriller</option>
+                <option>Western</option>
+            </select>
+        </label></li>
+        <li><label>
+            <select name="Years">
+                <option value="" disabled selected>Year</option>
+                <option>2025</option>
+                <option>2024</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>
+                <option>2006</option>
+                <option>2005</option>
+                <option>2004</option>
+                <option>2003</option>
+                <option>2002</option>
+                <option>2001</option>
+                <option>2000</option>
+            </select>
+        </label></li>
+        <li><label>
+            <select name="Sort by">
+                <option value="" disabled selected>Sort by</option>
+                <option>Most Popular</option>
+                <option>Most Rating</option>
+                <option>Most Recent</option>
+            </select>
+        </label></li>
+        <li><input type="reset" value="Reset"></li>
     </ul>
-    <iframe src="js/footer.html" frameborder="0" width="100%" height="200px"></iframe>
+</form>
+
+<div class="movies-page">
+    <div class="movies-list">
+        <ul>
+            <li><div class="movies-list-img"><img src="Images/got.jpg" alt="Movie 1"></div></li>
+            <li><div class="movies-list-img"><img src="Images/f.jpg" alt="Movie 2"></div></li>
+            <li><div class="movies-list-img"><img src="Images/bb.jpg" alt="Movie 3"></div></li>
+            <li><div class="movies-list-img"><img src="Images/bbt.jpg" alt="Movie 4"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p183875_b_v8_ab.jpg" alt="Movie 5"></div></li>
+        </ul>
+        <ul>
+            <li><div class="movies-list-img"><img src="Images/p184321_b_v13_bp.jpg" alt="Movie 6"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p184487_b_v8_bg.jpg" alt="Movie 7"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p184746_b_v8_ac.jpg" alt="Movie 8"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p184796_b_v8_ae.jpg" alt="Movie 9"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p185008_b_v10_ac.jpg" alt="Movie 10"></div></li>
+        </ul>
+        <ul>
+            <li><div class="movies-list-img"><img src="Images/p185013_b_v8_af.jpg" alt="Movie 11"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p185019_b_v13_au.jpg" alt="Movie 12"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p185271_b_v8_aa.jpg" alt="Movie 13"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p8204516_b_v8_at.jpg" alt="Movie 14"></div></li>
+            <li><div class="movies-list-img"><img src="Images/p8312617_b_v8_ab.jpg" alt="Movie 15"></div></li>
+        </ul>
+        <ul>
+            <li><div class="movies-list-img"><img src="Images/p12991665_b_v13_am.jpg" alt="Movie 16"></div></li>
+            <li><div class="movies-list-img"><img src="Images/parasite.jpg" alt="Movie 17"></div></li>
+            <li><div class="movies-list-img"><img src="Images/thekingspeech.jpg" alt="Movie 18"></div></li>
+            <li><div class="movies-list-img"><img src="Images/the-lord-of-the-rings-the-return-of-the-king.jpg" alt="Movie 19"></div></li>
+            <li><div class="movies-list-img"><img src="Images/departed.jpg" alt="Movie 20"></div></li>
+        </ul>
+    </div>
+</div>
+
 </body>
 </html>
