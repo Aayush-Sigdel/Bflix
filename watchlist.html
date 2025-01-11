@@ -6,35 +6,53 @@
         <title>About Page</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="header.css">
-
     </head>
     <body>
     <header class="header">
         <nav class="navbar">
             <ul>
-                <li class="nav-item"> <a href="index.html" ><img src="Icons/home-1-svgrepo-com.svg" width="30px" height="30px" alt="Home"> Home</a></li>
-                <li class="nav-item"><a href="movie.html" ><img src="Icons/clapperboard-open-play-svgrepo-com.svg" width="30px" height="30px" alt="Movies">Movies</a></li>
-                <li class="nav-item"><a href="tvshows.html" ><img src="Icons/tv-svgrepo-com.svg" width="30px" height="30px" alt="Tv Shows">TV Shows</a></li>
+                <li class="nav-item"> <a href="index.html" ><img src="Icons/home-1-svgrepo-com.svg" width="30px" height="30px" alt="Home"><span> Home</span></a></li>
+                <li class="nav-item"><a href="movie.html" ><img src="Icons/clapperboard-open-play-svgrepo-com.svg" width="30px" height="30px" alt="Movies"> Movies</a></li>
+                <li class="nav-item"><a href="tvshows.html" ><img src="Icons/tv-svgrepo-com.svg" width="30px" height="30px" alt="Tv Shows"> Shows</a></li>
             </ul>
         </nav>
-        <a class="logo" href="index.html" ><img src="Icons/bold-letter-b-svgrepo-com.svg" width="40px" height="40px" alt="Logo"></a>
+        <a class="logo" href="vedios/fun.html" ><img src="Icons/bold-letter-b-svgrepo-com.svg" width="40px" height="40px" alt="Logo"></a>
         <nav class="navbar">
             <ul>
-                <li class="nav-item"><a href="watchlist.html" ><img src="Icons/star-svgrepo-com.svg" width="30px" height="30px" alt="Watchlist">Watchlist</a></li>
-                <li class="nav-item"><a href="login.html" ><img src="Icons/user-circle-svgrepo-com.svg" width="30px" height="30px" alt="Login">Login</a></li>
+                <li class="nav-item"><label for="search"></label><input type="text" id="search" placeholder="Search"></li>
+                <li class="nav-item"><a href="watchlist.html" ><img src="Icons/star-svgrepo-com.svg" width="30px" height="30px" alt="Watchlist"> Watchlist</a></li>
+                <li class="nav-item"><a href="login.html" ><img src="Icons/user-circle-svgrepo-com.svg" width="30px" height="30px" alt="Login"> Login</a></li>
             </ul>
         </nav>
     </header>
-            <dt><h1>About This Page:</h1></dt>
-                <dl>Welcome to the About Page of our Movie!</dl>
-                <dl>This webpage is dedicated to celebrating the world of movies. From timeless classics to modern blockbusters, it’s a space where film lovers can explore and appreciate the magic of cinema.</p></dl>
-            <dt><h2>What This Page Offers? </h2></dt>
-               <ul><li><b>Movie Highlights:</b> Discover popular and noteworthy films.</li>
-                <li><b>Genres to Explore:</b> Learn about different genres, from action to drama.</li></ul>
-            <dt><h2>Why Movies?</h2></dt>
-                <dl>Movies are more than just entertainment—they inspire, connect, and tell stories that resonate with people worldwide. This project was created to celebrate my love for cinema and to share its impact with others.</dl>
-        
-        <iframe src="js/footer.html" frameborder="0" width="100%" height="200px"></iframe>
+
+<div class="watchlist-page">
+    <div class="watchlist-container">
+        <ul>
+            <li><button class="red"></button><span class="watchlist-container-text">WatchList</span></li>
+            <li><button class="clear" type="reset">🗑️ Clear all watchlist</button></li>
+        </ul>
+
+    </div>
+</div>
+
+    <div class="movies-page">
+        <div class="movies-list">
+            <ul>
+                <li><div class="movies-list-img"><img src="Images/oppenheimer.jpg" alt="Movie 1" class="mov-img"><div class="movie-content"><img src="Icons/play-circle-svgrepo-com.svg" alt="play" width="30px" height="30px"  class="play-button"><p>OPPENHEIMER</p><p>⭐8.7/10</p></div></div></li>
+                <li><div class="movies-list-img"><img src="Images/p184796_b_v8_ae.jpg" alt="Movie 9" class="mov-img"><div class="movie-content"><img src="Icons/play-circle-svgrepo-com.svg" alt="play" width="30px" height="30px" class="play-button"><p>The Wire</p><p>⭐7.2/10</p></div></div></li>
+                <li><div class="movies-list-img"><img src="Images/c3.jpg" alt="Movie 4" class="mov-img"><div class="movie-content"><img src="Icons/play-circle-svgrepo-com.svg" alt="play" width="30px" height="30px"  class="play-button"><p>The Guardians Of The Galaxy: Vol 3</p><P>⭐8.1/10</p></div></div></li>
+                <li><div class="movies-list-img"><img src="Images/p12991665_b_v13_am.jpg" alt="Movie 16" class="mov-img"><div class="movie-content"><img src="Icons/play-circle-svgrepo-com.svg" alt="play" width="30px" height="30px" class="play-button"><p>Strange Things</p><p>⭐7.9/10</p></div></div></li>
+                <li><div class="movies-list-img"><img src="Images/c4.jpg" alt="Movie 5" class="mov-img"><div class="movie-content"><img src="Icons/play-circle-svgrepo-com.svg" alt="play" width="30px" height="30px"  class="play-button"><p>Shazam</p><P>⭐7.8/10</p></div></div></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="Footer">
+        <p>&copy;Aayush-Sigdel</p>
+        <a href="mailto:itsforaayush@gmail.com">itsforaayush@gmail.com</a><br>
+        <a href="https://github.com/Aayush-Sigdel/AssignmentWeb">Github</a>
+    </footer>
+
     </body>
-    
 </html>

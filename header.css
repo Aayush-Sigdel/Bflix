@@ -1,35 +1,84 @@
-.header{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 10px 20px 20px 20px;
-   background: transparent;
-}
-.nav-item  li,a {
-   text-decoration: none;
-   font-family: "Cascadia Code", monospace;
-   color: #1C274C;
+@media only screen and (max-width: 662px) {
+   .header{
+      display: flex;
+      padding: 10px 20px 20px 0;
+      background: transparent;
+   }
+   .nav-item  li,a {
+      text-decoration: none;
+      font-family: "Cascadia Code", monospace;
+      color: #1C274C;
+   }
+
+   .nav-item a:hover {
+      color: red;
+   }
+
+   .nav-item{
+      list-style: none;
+      padding: 10px 20px;
+   }
+
+   .navbar ul{
+   }
+
+   #search{
+      display: inline-block;
+      border: none;
+      border-radius: 7px;
+      padding: 10px;
+      width: 100%;
+      font-size: 14px;
+      font-family: monospace;
+   }
 }
 
-.nav-item a:hover {
-   color: red;
+
+@media only screen and (min-width: 661px) {
+   .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px 20px 0;
+      background: transparent;
+   }
+
+   .nav-item li, a {
+      text-decoration: none;
+      font-family: "Cascadia Code", monospace;
+      color: #1C274C;
+   }
+
+   .nav-item a:hover {
+      color: red;
+   }
+
+   .logo {
+      margin-left: 100px;
+      display: flex;
+
+   }
+
+   .nav-item {
+      list-style: none;
+      display: inline;
+      padding: 10px 20px;
+   }
+
+   .navbar ul {
+      margin: auto;
+      width: auto;
+      display: flex;
+   }
+
+   #search {
+      display: inline-block;
+      border: none;
+      border-radius: 7px;
+      padding: 10px;
+      width: 100%;
+      font-size: 14px;
+      font-family: monospace;
+   }
 }
-
-.logo {
-   margin-right: 100px;
-}
-
-.nav-item{
-   list-style: none;
-   display: inline;
-   padding: 10px 20px;
-}
-
-.navbar ul{
-   margin: auto;
-   width: auto;
-   display: flex;
-}
-
-
 
