@@ -66,6 +66,7 @@
         width: 100%;
         object-fit: cover;
         transform: scale(0.935);
+
     }
 
     .play-button{
@@ -75,7 +76,6 @@
     .play-button:hover{
         transform: scale(1.5);
     }
-
     .cover-content {
         font-family: monospace;
         position: absolute;
@@ -167,6 +167,7 @@
 }
 
 @media only screen and (max-width: 661px) {
+
     body{
         background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
         scroll-behavior: smooth;
@@ -234,7 +235,6 @@
     }
 
     .play-button{
-        opacity: 0;
         width: 150px;
         padding: 20px 20px 0 20px;
         transition: ease-in-out 200ms;
@@ -253,7 +253,9 @@
         transform: scale(0.935);
         text-align: left;
     }
-
+    .cover{
+        width: 100%;
+    }
     .movies-list-img {
         border-radius: 15px;
         transition: transform.2s ease-in-out ;
