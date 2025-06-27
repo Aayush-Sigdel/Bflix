@@ -1,2 +1,1 @@
-# AssignmentWeb
- web technolody Assignment 3
+A HTML/CSS Only project on A Movie Rating WebSite
